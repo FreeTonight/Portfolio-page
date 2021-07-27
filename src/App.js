@@ -7,12 +7,14 @@ import About from "./pages/About";
 import Hobby from "./pages/Hobby";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />

@@ -41,8 +41,12 @@ img.project-img {
   padding-bottom: 10px;
 }
 
-.project-link {
-  text-decoration: none;
+.project-sub {
   text-align: start;
   margin-left: 20%;
+}
+
+.project-link {
+  text-decoration: none;
+  color: blue;
 }

@@ -22,8 +22,8 @@ function ProjectList() {
           alt={`Slide ${i + 1}`}
         />
         <h4 className="project-name">Project {i + 1}</h4>
-        <p className="project-link">
-          Click <Link>here</Link> to view code
+        <p className="project-sub">
+          Click <Link className="project-link">here</Link> to view code
         </p>
       </SwiperSlide>
     );
