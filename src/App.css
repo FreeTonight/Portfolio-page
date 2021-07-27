@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about,
+.hobby,
+.home {
+  display: flex;
+  height: 90.2vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  background-image: url("/images/img-1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.hobby {
+  background-image: url("/images/img-1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.home {
+  /* background-image: url('/images/img-1.jpeg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(3px);
+  -webkit-filter: blur(2px);
+}
+
+.contact {
+  background-image: url("/public/images/black.jpeg");
+  background-position: center;
+  background-size: 5000px 5000px;
+  background-repeat: no-repeat;
+}
+
+.home-text {
+  color: white;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .home-text {
+    width: 80%;
+  }
+}
