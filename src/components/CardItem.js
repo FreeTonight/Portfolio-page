@@ -8,7 +8,7 @@ function CardItem(props) {
     <>
       <li className="cards__item">
         <div className="cards__item__container">
-          <figure className="cards__item__pic-wrap">
+          <figure className="cards__item__pic__wrap">
             {/* image tag
             data-category={[props.label]} */}
             <img className="cards__item__img" alt="" src={props.src} />
