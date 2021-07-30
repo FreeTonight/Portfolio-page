@@ -1,0 +1,53 @@
+.stacks-list {
+    list-style-type: none;
+}
+
+.stacks-container {
+    display: inline-block;
+}
+
+.stacks {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+/* .stacks span {
+    position: relative;
+    height: 60px;
+    width: 60px; 
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.stacks span i {
+    font-size: 45px;
+    line-height: 60px ;
+}
+
+.stacks .tooltip {
+    position: absolute;
+    top: -35px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+}
+
+.stacks:hover .tooltip {
+    opacity: 0.7;
+    pointer-events: auto;
+}
