@@ -8,13 +8,6 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.flex-wrapper {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .about,
 .hobby,
 .home {
@@ -24,44 +17,5 @@
   justify-content: center;
 }
 
-.about {
-  background: url("/images/about.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.home {
-  /* background-image: url('/images/img-1.jpeg'); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: blur(3px);
-  -webkit-filter: blur(2px);
-}
 
 
-.home-text {
-  font-size: 40px;
-  background-color: rgba(215, 216, 216, 0.5);
-  font-weight: bold;
-  border: 3px solid;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  width: 60%;
-  padding: 20px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-@media screen and (max-width: 600px) {
-  .home-text {
-    width: 80%;
-  }
-}

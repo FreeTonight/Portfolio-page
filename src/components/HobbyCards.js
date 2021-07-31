@@ -11,27 +11,32 @@ function HobbyCards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-1.jpeg"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+              src="images/football.jpeg"
+              title="Football"
+              text="I've been playing football since I was a kid. I played intensively during my teenage years. Despite not playing much lately, I still follow the sport closely."
             />
 
             <CardItem
-              src="images/img-1.jpeg"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+              src="images/rock-climbing.jpeg"
+              title="Rock Climbing"
+              text="I recently started after watching 'Free Solo' - a documentary about rock climbing. It's been over a month and I enjoy it very much."
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-1.jpeg"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+              src="images/LoL.jpeg"
+              title="League of Legends"
+              text="I've been playing this game for almost a decade. I tried to quit multiple times, I failed everytime."
             />
             <CardItem
-              src="images/img-1.jpeg"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+              src="images/CoC.jpeg"
+              title="Clash of Clans"
+              text="Mobile game that I have also been playing for almost a decade. However, this game doesn't drive me crazy."
             />
             <CardItem
-              src="images/img-1.jpeg"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+              src="images/hiking.jpeg"
+              title="Hiking"
+              text="I enjoy being in the nature. Every hikes I went have been wonderful and memorable."
             />
           </ul>
         </div>

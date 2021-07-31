@@ -3,7 +3,7 @@ import "./Stack.css";
 
 const stack = [
   {
-    name: "Html",
+    name: "HTML",
     icon: "fab fa-html5",
   },
   {
@@ -11,7 +11,7 @@ const stack = [
     icon: "fab fa-css3-alt",
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     icon: "fab fa-js-square",
   },
   {

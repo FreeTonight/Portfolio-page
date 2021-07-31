@@ -1,5 +1,12 @@
+.about {
+    background: url("/images/about.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 .me-container {
-  max-width: 800px;
+  max-width: 750px;
   text-align: left;
   line-height: 250%;
   background-color: rgba(215, 216, 216, 0.7);
@@ -14,4 +21,10 @@
 
 h1 {
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 820px) {
+    .me-container {
+        width: 80%;
+    }
 }

@@ -1,0 +1,35 @@
+.home {
+    /* background-image: url('/images/img-1.jpeg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    -webkit-filter: blur(1px);
+  }
+  
+  
+  .home-text {
+    font-size: 40px;
+    background-color: rgba(215, 216, 216, 0.5);
+    font-weight: bold;
+    border: 3px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .home-text {
+      width: 80%;
+    }
+  }
+  
