@@ -10,20 +10,20 @@ SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
 
 const project = [
   {
-    name: "Project 1",
-    link: {pathname: "https://google.com"},
+    name: "Porfolio page",
+    link: {pathname: "https://github.com/FreeTonight/Portfolio-page"},
     stack: ["Html", "Css", "React"],
     description: "My very first project"
   },
   {
-    name: "Project 2",
-    link: {pathname: "https://facebook.com"},
+    name: "Preflix",
+    link: {pathname: "https://github.com/FreeTonight/Preflix"},
     stack: ["Html", "Css", "React"],
     description: "MY second project hehe"
   },
   {
-    name: "Project 3",
-    link: {pathname: "https://youtube.com"},
+    name: "Youtube search app",
+    link: {pathname: "https://github.com/FreeTonight/Youtube-search"},
     stack: ["Html", "Css", "React"],
     description: "my latest project"
   },
